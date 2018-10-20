@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoProject3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEh-XN-u4Q" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                <rect key="frame" x="50" y="45" width="275" height="275"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mrg-Fr-Mgm" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="40" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Pkz-BJ-2Ko"/>
+                                            <constraint firstAttribute="width" constant="40" id="sMO-IV-DM2"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ne-nK-Lcd" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="195" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="0L6-Pd-sqt"/>
+                                            <constraint firstAttribute="width" constant="40" id="t4t-bF-d02"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5O-Xn-C9l" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="195" y="195" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="7Ml-ke-csl"/>
+                                            <constraint firstAttribute="width" constant="40" id="cpq-7h-PEl"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gff-uR-fyM" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="195" y="40" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="umK-nT-h7G"/>
+                                            <constraint firstAttribute="width" constant="40" id="yE4-yk-SPq"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXD-jm-kY2" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="117" y="8" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="80l-XF-fIX"/>
+                                            <constraint firstAttribute="height" constant="40" id="8ij-Os-jLw"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZj-Yh-sT9" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="117" y="227" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="1e0-AA-IZe"/>
+                                            <constraint firstAttribute="width" constant="40" id="EBc-Zf-Lxm"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjX-h7-Rum" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="117" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="2Zy-6C-ubk"/>
+                                            <constraint firstAttribute="height" constant="40" id="aBN-1t-DyA"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XpQ-Bz-vC3" customClass="DesignableUIView" customModule="DemoProject3" customModuleProvider="target">
+                                        <rect key="frame" x="227" y="117" width="40" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="EmZ-sL-V8t"/>
+                                            <constraint firstAttribute="height" constant="40" id="i59-0K-CZg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vXD-jm-kY2" firstAttribute="centerX" secondItem="bEh-XN-u4Q" secondAttribute="centerX" id="0AE-tH-CcF"/>
+                                    <constraint firstItem="VZj-Yh-sT9" firstAttribute="centerX" secondItem="bEh-XN-u4Q" secondAttribute="centerX" id="3ab-Kn-m8T"/>
+                                    <constraint firstAttribute="trailing" secondItem="XpQ-Bz-vC3" secondAttribute="trailing" constant="8" id="3zD-7P-9Sf"/>
+                                    <constraint firstAttribute="bottom" secondItem="6ne-nK-Lcd" secondAttribute="bottom" constant="40" id="8A9-aQ-SSu"/>
+                                    <constraint firstItem="vXD-jm-kY2" firstAttribute="top" secondItem="bEh-XN-u4Q" secondAttribute="top" constant="8" id="98y-qv-RSZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="VZj-Yh-sT9" secondAttribute="bottom" constant="8" id="A30-7W-ajj"/>
+                                    <constraint firstAttribute="bottom" secondItem="e5O-Xn-C9l" secondAttribute="bottom" constant="40" id="DSW-a5-O2s"/>
+                                    <constraint firstItem="Mrg-Fr-Mgm" firstAttribute="top" secondItem="bEh-XN-u4Q" secondAttribute="top" constant="40" id="GXi-Ix-Kfd"/>
+                                    <constraint firstItem="XpQ-Bz-vC3" firstAttribute="centerY" secondItem="bEh-XN-u4Q" secondAttribute="centerY" id="NFm-Qv-vU7"/>
+                                    <constraint firstAttribute="trailing" secondItem="e5O-Xn-C9l" secondAttribute="trailing" constant="40" id="Qyp-KR-hJt"/>
+                                    <constraint firstItem="Mrg-Fr-Mgm" firstAttribute="leading" secondItem="bEh-XN-u4Q" secondAttribute="leading" constant="40" id="U3H-ay-zwf"/>
+                                    <constraint firstItem="6ne-nK-Lcd" firstAttribute="leading" secondItem="bEh-XN-u4Q" secondAttribute="leading" constant="40" id="c3Q-7p-egC"/>
+                                    <constraint firstAttribute="width" secondItem="bEh-XN-u4Q" secondAttribute="height" multiplier="1:1" id="cTx-aJ-Tyc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gff-uR-fyM" secondAttribute="trailing" constant="40" id="h2z-bo-EK7"/>
+                                    <constraint firstItem="Gff-uR-fyM" firstAttribute="top" secondItem="bEh-XN-u4Q" secondAttribute="top" constant="40" id="riA-3b-ETW"/>
+                                    <constraint firstItem="jjX-h7-Rum" firstAttribute="centerY" secondItem="bEh-XN-u4Q" secondAttribute="centerY" id="wFK-BZ-QUJ"/>
+                                    <constraint firstItem="jjX-h7-Rum" firstAttribute="leading" secondItem="bEh-XN-u4Q" secondAttribute="leading" constant="8" id="zFb-NS-l8W"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="137"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffSetX">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffSetY">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.83837890625" green="0.25406901041666669" blue="0.35039605034722221" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Sk1-fZ-RVj">
+                                <rect key="frame" x="137.5" y="567" width="100" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Tfq-RV-ZlJ"/>
+                                    <constraint firstAttribute="height" constant="30" id="uan-O3-Vuw"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="OFF"/>
+                                    <segment title="ON"/>
+                                </segments>
+                                <connections>
+                                    <action selector="OnOffSegmentAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="dLy-Pc-qY3"/>
+                                </connections>
+                            </segmentedControl>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.10000000000000001" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="EsF-9T-vVa">
+                                <rect key="frame" x="13" y="617" width="349" height="31"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="f2h-PD-qaz"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current : 10 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fl7-dp-vdV">
+                                <rect key="frame" x="280.5" y="592" width="79.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min : 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBq-Xd-0B4">
+                                <rect key="frame" x="15" y="592" width="50.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72156862745098038" green="0.72156862745098038" blue="0.72156862745098038" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bEh-XN-u4Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="2lm-cd-t5a"/>
+                            <constraint firstItem="dBq-Xd-0B4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="7wL-d1-6pS"/>
+                            <constraint firstItem="EsF-9T-vVa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="8oI-EK-VNj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EsF-9T-vVa" secondAttribute="bottom" constant="20" id="PHe-zk-v9p"/>
+                            <constraint firstItem="EsF-9T-vVa" firstAttribute="top" secondItem="dBq-Xd-0B4" secondAttribute="bottom" constant="8" id="ab8-n5-Als"/>
+                            <constraint firstItem="EsF-9T-vVa" firstAttribute="top" secondItem="fl7-dp-vdV" secondAttribute="bottom" constant="8" id="amO-lN-1BF"/>
+                            <constraint firstItem="bEh-XN-u4Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="be5-H9-clc"/>
+                            <constraint firstItem="Sk1-fZ-RVj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hV0-Sf-BZh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fl7-dp-vdV" secondAttribute="trailing" constant="15" id="n3E-JJ-anq"/>
+                            <constraint firstItem="bEh-XN-u4Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="nq2-xc-CsB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsF-9T-vVa" secondAttribute="trailing" constant="15" id="sMh-k1-mf2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bEh-XN-u4Q" secondAttribute="trailing" constant="50" id="uCr-x2-oae"/>
+                            <constraint firstItem="EsF-9T-vVa" firstAttribute="top" secondItem="Sk1-fZ-RVj" secondAttribute="bottom" constant="20" id="ypK-WM-ov9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="OnOffSegment" destination="Sk1-fZ-RVj" id="sYB-Sf-hNC"/>
+                        <outlet property="lblCurrentSpeed" destination="fl7-dp-vdV" id="T0u-hU-GW8"/>
+                        <outlet property="sliderController" destination="EsF-9T-vVa" id="ypc-2i-cOb"/>
+                        <outlet property="viewMainCircle" destination="bEh-XN-u4Q" id="1ei-pA-Gbt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
